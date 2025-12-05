@@ -1,0 +1,157 @@
+body{
+    margin: 0px 0px;
+    font-family: arial;
+    color: white;
+     background-color: #191919;
+      
+}
+ 
+/* navbar  */
+
+.nav{
+     background-color: #000000;
+     display: flex;
+     font-size: 12px;
+     position: sticky;
+     top: 0px;
+     height: 80px;
+     
+    }
+/* cro */
+.cro{
+    display: flex;
+    padding-left: 10px;
+}
+.croma{
+    font-size: 50px;
+   margin-top: 3px;
+   padding-left: 90px;
+    font-family: serif;
+}
+.icon1{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.menu{
+    margin-top: 35px;
+}
+.mine{
+   /*  display: flex; */
+    font-size: 60px;
+    position: relative;
+    right: 20px;
+    bottom: 23px;
+    color: #3ccdb3;
+    
+}
+/* searchbar */
+.search{
+    display: flex;
+    padding-left: 50px;
+    
+}
+ 
+.searchbar input{
+    width: 450px;
+    height: 40px;
+    padding-left: 30px;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(238, 233, 233);
+}
+.icon2{
+   margin-top: 25px;
+   margin-left: -35px; 
+   color: black;
+}
+
+/* icon */
+.icon{
+    display: flex;
+    padding-left: 150px;
+    margin-top: 10px;
+    gap: 1rem;
+    font-size: 14px;
+}
+.icon3{
+    margin-top: 15px;
+}
+.icon4{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.icon5{
+    padding-left: 15px;
+     margin-top: 20px;
+}
+/* sem */
+ 
+/* navbar */
+.navbar{
+    margin-top: -10px;
+    padding-left: 95px;
+    font-size: 13px;
+    color: #eff0ec;
+    padding-top: 20px;
+    font-family: arial;
+     
+}
+.tab{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.arrow{
+    padding: 10px;
+}
+ 
+.tops{
+    color: white;
+}
+.top{
+    font-size: 25px;
+    /* margin-top: 10px;
+    margin-right: 2000px; */
+   padding-bottom: 50px;
+   /* margin-left: 30px; */
+   margin: 10px 1000px auto 30px;
+}
+
+/* imag */
+
+.imag{
+    margin-top: -40px;
+    padding: 0px;
+}
+
+.tet {
+    padding-left: 120px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.head{
+    font-weight: 600;
+}
+.tet p{
+     padding-bottom: 30px;
+     line-height: 22px;
+}
+.tet img{
+    border-radius: 10px;
+}
+/* game */
+.ing{
+    padding-top: 40px;
+}
+.mar{
+    display: flex;
+    gap: 25px;
+    padding-top: 5px;
+}
+.more{
+    display: flex;
+    gap: 17px;
+    padding-top: 25px;
+}
