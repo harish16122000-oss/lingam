@@ -1,0 +1,375 @@
+body{
+    margin: 0px 0px;
+    font-family: arial;
+    color: white;
+     background-color: #191919;
+      
+}
+ 
+/* navbar  */
+
+.nav{
+     background-color: #000000;
+     display: flex;
+     font-size: 12px;
+     position: sticky;
+     top: 0px;
+    gap: 100px;
+     
+    }
+/* cro */
+.cro{
+    display: flex;
+    padding-left: 10px;
+}
+.croma{
+    font-size: 50px;
+   margin-top: 3px;
+   padding-left: 90px;
+    font-family: serif;
+}
+.icon1{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.menu{
+    margin-top: 35px;
+}
+ 
+/* searchbar */
+.search{
+    display: flex;
+    padding-left: 50px;
+    
+}
+ 
+.searchbar input{
+    width: 450px;
+    height: 10px;
+    padding-left: 30px;
+    border-radius: 7px;
+    margin-top: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(238, 233, 233);
+}
+.icon2{
+   margin-top: 25px;
+   margin-left: -35px; 
+   color: black;
+}
+
+/* icon */
+.icon{
+    display: flex;
+    padding-left: 150px;
+    margin-top: 10px;
+    gap: 1rem;
+    font-size: 14px;
+}
+.icon3{
+    margin-top: 15px;
+}
+.icon4{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.icon5{
+    padding-left: 15px;
+     margin-top: 20px;
+}
+/* sem */
+ 
+/* navbar */
+.navbar{
+    margin-top: -10px;
+    padding-left: 95px;
+    font-size: 13px;
+    color: #eff0ec;
+    padding-top: 20px;
+    font-family: arial;
+     
+}
+.tab{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.arrow{
+    padding: 10px;
+}
+ 
+.tops{
+    color: white;
+    
+}
+.top{
+    font-size: 25px;
+    padding-bottom: 50px;
+    margin: 10px 1000px auto 30px;
+}
+
+/* imag */
+
+.imag{
+    margin-top: -40px;
+    padding: 0px;
+}
+/* container */
+.container{
+    margin: auto 100px auto 100px;
+}
+.tet {
+     
+    padding-top: 30px;
+    font-weight: 300;
+}
+.head{
+    font-weight: 600;
+    margin-top: 30px;
+}
+.tet p{
+     padding-bottom: 30px;
+     line-height: 22px;
+     margin-top: 20px;
+     width: 56%;
+}
+.tet img{
+    border-radius: 10px;
+}
+/* game */
+.ing{
+    padding-top: 40px;
+    margin-top: 20px;
+}
+.mon{
+    margin-top: 50px;
+}
+.mar{
+    display: flex;
+    gap: 25px;
+    padding-top: 5px;
+}
+.more{
+    display: flex;
+    gap: 17px;
+    padding-top: 25px;
+}
+.mere{
+    margin-top: 70px;
+}
+.mad{
+    
+    display: flex;
+    gap: 1rem;
+}
+.rad{
+    background-color: black;
+    padding-left: 40px;
+    
+}
+.rad img{
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.rad p{
+    font-weight: 900px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.domer{
+    font-size: 12px;
+    color: #9a9a9a;
+}
+.dat{
+    color: #9a9a9a;
+    font-size: 12px;
+    
+}
+.nare{
+margin-left: 220px;
+margin-top: 20px;
+
+}
+.footer{
+     
+    margin-bottom: 0px;
+    margin-top: 50px;
+    background-color: #1d1d1d;
+    display: flex;
+    gap: 520px;
+}
+.footer h3{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.footer input{
+    margin-top: 0px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.footer2{
+    padding-top: 50px;
+    margin-left: 10px;
+    display: flex;
+}
+.footer2 ul{
+    display: flex;
+    gap: 3rem;
+    
+}
+ 
+.footer1{
+    margin-left: 100px;
+}
+.footer3{
+     
+    margin-left: 630px; 
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    *{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .nav{
+        display: block;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+    /* .cro{
+        margin-left: 0px;
+        padding-left: 0px;
+    } */
+    .croma{
+         
+        padding-left: 10px;
+    }
+     .search{
+        padding-left: 10px;
+     }
+    .searchbar{
+        padding-top: 0px;
+       /*  margin-left: 0px;
+        padding-left: 0px; */
+    }
+   
+    .searchbar input{
+           width: 200px;
+           height: 1px;
+            margin-left: 0px;
+    }
+    .icon{
+       padding-left: 0px;
+       margin-left: 10px;
+        
+         
+    }
+    .imag img{
+        height: 150px;
+        /* width: 500px; */
+    }
+    .navbar{
+         
+        padding-left: 20px;
+    }
+    .tet{
+        
+        padding: 0px;
+    }
+    .tet h2{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .tet p{
+        font-size: 11px;
+        width: 100%;
+          line-height: 12px;
+            margin-left: 20px;
+    }
+    .game{
+        
+        padding: 0px;
+ }
+ .tet img{
+    height: 100px;
+ }
+ .container{
+    margin: 10px;
+ }
+ .ing{
+    padding: 0px;
+ }
+  
+
+ 
+ .mar{
+    display: block;
+}
+.mere h4{
+    margin-left: 40px;
+}
+.mar img{
+    height: 200px;
+    width: 300px;
+}
+.more{
+    display:block;
+}
+.more img{
+     height: 200px;
+    width: 300px;
+}
+.mad{
+    display: block;
+    margin-left: 0px;
+    
+}
+.rad{
+     margin-left: 0px;
+     width: 270px;
+     margin-top: 20px;
+}
+.rad p{
+    width: 200px;
+}
+.footer{
+    display: block;
+    width: 430px;
+    margin-top: 0px;
+   
+}
+ 
+.footer1{
+   margin-left: 0px;
+   padding-left: 30px;
+}
+.footer1 input{
+    width: 230px;
+    height: 30px;
+}
+.footer2{
+    padding-top: 20px;
+    display: block;
+    margin-left: 0px;
+    gap: 10px;
+}
+.footer2 ul{
+     display: flex;
+     gap: 30px;
+     margin-left: 10px;
+     margin-top: 0px;
+      
+}
+.footer3{
+    margin-left:  30px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+ }
